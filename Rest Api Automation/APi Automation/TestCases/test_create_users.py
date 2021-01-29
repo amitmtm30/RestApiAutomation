@@ -10,7 +10,7 @@ url = "https://reqres.in/api/users"
 @pytest.fixture()
 def startup():
     global file
-    file = open("D:\\Rest Api Automation\\APi Automation\\createuser.json", 'r')
+    file = open("D:\\amitgit\\AmitRestApi\\RestApiAutomation\\Rest Api Automation\\APi Automation\\createuser.json", 'r')
 
 
 @pytest.mark.Smoke
